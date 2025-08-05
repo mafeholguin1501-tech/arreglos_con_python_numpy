@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPlHmkgnRAOvPW8rg2fZoCV",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mafeholguin1501-tech/arreglos_con_python_numpy/blob/main/ejemplo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "id": "l9KGHVAbDnfe",
+        "outputId": "8972a999-fb3b-40bd-c30d-cf6b1993b30e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "vector original: [ 1  2  3  4  5  6  7  8  9 10]\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "#aleas para recortar el nombre de l alibrria peara eso es u alias\n",
+        "#numoy es una libreria para trabajar con arreglos,matrces y vectores\n",
+        "#primer ejmeplo de uso de numpy con vectores\n",
+        "\n",
+        "#creamos un vector de 10 elemntos\n",
+        "\n",
+        "vector =np.array([1,2,3,4,5,6,7,8,9,10])\n",
+        "#imprimir el vector\n",
+        "print(\"vector original:\",vector)\n"
+      ]
+    }
+  ]
+}
